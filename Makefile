@@ -48,4 +48,4 @@ prune:
 	docker system prune -f
 
 app:
-	docker compose exec app bash
+	docker compose exec backend bash
