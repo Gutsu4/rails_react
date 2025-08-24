@@ -1,15 +1,18 @@
 import React from 'react';
-import './App.css';
+import {Routes, Route} from "react-router-dom";
+import TaskNewPage from "./pages/TaskNewPage";
+import TaskListPage from "./pages/TaskListPage";
+import TaskDetailPage from "./pages/TaskDetailPage";
+import "./App.css";
 
 
-function App() {
+export default function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <h1>Rails + React Practice App</h1>
-            </header>
-        </div>
+        <Routes>
+            <Route path="/" element={<TaskListPage/>}/>
+            <Route path="/new" element={<TaskNewPage/>}/>
+            <Route path="/:id" element={<TaskDetailPage/>}/>
+            <Route path="*" element={<div>Not Found</div>} />
+        </Routes>
     );
 }
-
-export default App;
