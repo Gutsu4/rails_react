@@ -46,6 +46,3 @@ console:
 prune:
 	$(COMPOSE) down --volumes --remove-orphans
 	docker system prune -f
-
-app:
-	docker compose exec backend bash
