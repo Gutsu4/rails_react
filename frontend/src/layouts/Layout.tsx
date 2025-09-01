@@ -1,14 +1,12 @@
 import Header from './Header'
-import Title from './Title'
 import {ReactNode} from 'react';
 import "./../css/Layout.css"
 
-export default function Layout({children,title}: { children: ReactNode ,title: string}) {
+export default function Layout({children}: { children: ReactNode ,title: string}) {
     return (
-        <div className="container">
+        <div>
             <Header/>
-            <Title title={ title } />
-            <main className="container">
+            <main>
                 {children}
             </main>
         </div>

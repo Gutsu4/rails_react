@@ -32,7 +32,7 @@ export default function TaskList() {
                         <td>{task.status === 0 ? "未完了" : "完了"}</td>
                         <td>{task.created_at}</td>
                         <td>
-                            <button className="secondary-button">編集する</button>
+                            <button className="secondary-button">完了にする</button>
                         </td>
                         <td>
                             <button className="danger-button">削除する</button>

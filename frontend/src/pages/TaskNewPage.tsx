@@ -1,5 +1,10 @@
+import Layout from "../layouts/Layout"
+import TaskCreateForm from "../features/TaskCreateForm";
+
 export default function TaskNewPage() {
     return (
-        <h1>タスク作成画面</h1>
+        <Layout title="タスク作成">
+            <TaskCreateForm/>
+        </Layout>
     )
 }

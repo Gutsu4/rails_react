@@ -1,5 +1,7 @@
+import Layout from "../layouts/Layout";
 export default function TaskDetailPage() {
     return (
-        <h1>タスク詳細画面</h1>
+        <Layout title="タスク詳細">
+        </Layout>
     )
 }
