@@ -3,7 +3,6 @@ import {Routes, Route} from "react-router-dom";
 import TaskNewPage from "./pages/TaskNewPage";
 import TaskListPage from "./pages/TaskListPage";
 import TaskDetailPage from "./pages/TaskDetailPage";
-import "./App.css";
 
 
 export default function App() {

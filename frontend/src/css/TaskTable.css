@@ -1,0 +1,35 @@
+.task-table-container {
+    padding: 16px;
+    background: #fff;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.task-table th,
+.task-table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.task-table-head {
+    background-color: #f8f8f8;
+}
+
+.task-table-row:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.task-table th {
+    font-weight: bold;
+    color: #333;
+}
+
+.task-table td {
+    color: #555;
+    width: 5%;
+}

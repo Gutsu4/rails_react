@@ -1,0 +1,21 @@
+.secondary-button {
+    background-color: lightgreen;
+}
+
+.danger-button {
+    background-color: tomato;
+}
+
+.primary-button {
+    background-color: orange;
+}
+
+button {
+    width: 100px;
+    height: 48px;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
